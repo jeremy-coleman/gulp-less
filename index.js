@@ -42,7 +42,7 @@ module.exports = function (options) {
     
     less.render(str, opts).then(function(res) {
 
-      console.log(Object.keys(res))
+      //console.log(Object.keys(res))
 
       file.contents = Buffer.from(res.css);
 

@@ -20,10 +20,12 @@
   ],
   "author": "Chris Cowan",
   "license": "MIT",
-  "dependencies": {
+  "removed":{
     "accord": "^0.29.0",
-    "less": "2.6.x || ^3.7.1",
-    "object-assign": "^4.0.1",
+    "object-assign": "^4.0.1"
+  },
+  "dependencies": {
+    "less": "*",
     "plugin-error": "^0.1.2",
     "replace-ext": "^1.0.0",
     "through2": "^2.0.0",
